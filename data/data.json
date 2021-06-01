@@ -1,0 +1,49 @@
+{
+    "albums": [{
+        "name": "Drake",
+        "shortname": "thankme",
+        "albumname" : "Thank Me Later",
+        "summary" : "2010 debut album from the Canadian Hip Hop sensation and Lil' Wayne's protege. Thank Me Later features guest appearances from Alicia Keys, T.I., Jay-Z, The Dream, Young Jeezy and Lil Wayne. Drake has already enjoyed Top 10 chart success in the UK as a key member of the Young Money collective. You will also have heard Drake's distinctive flow on big singles from the likes of Jay-Z, Eminem, Alicia Keys, Kanye West, Lil Wayne and Mary J Blige to name but a few. Born into a musical family, his father drummed with Jerry Lee Lewis, and his uncle is the legendary bass player Larry Graham.",
+        "artwork": ["firstAlbum.jpg"],
+        "tracklist": ["Fireworks", "Karaoke", "The Resistance", "Over", "Show Me a Good Time", "Up ALl Night", "Fancy", "Shut It Down", "Unforgettable", "Light", "Miss Me", "Cece's Interlude", "Find Your Love", "Thank Me Now"],
+        "albumAM": "https://music.apple.com/us/album/thank-me-later/1440762388",
+        "albumSM": "https://open.spotify.com/album/6jlrjFR9mJV3jd1IPSplXU"
+    },{
+        "name": "Drake",
+        "shortname": "takecare",
+        "albumname" : "Take Care",
+        "summary": "Take Care is the second studio album by Drake. It was released on November 15, 2011 by Young Money Entertainment, Cash Money Records and Universal Republic Records. The album features guest appearances from The Weeknd, Rihanna, Kendrick Lamar, Birdman, Nicki Minaj, Rick Ross, Lil Wayne, and André 3000. Alongside prominent production from the album's executive producers Drake and 40, further contributors include T-Minus, Chantal Kreviazuk, Boi-1da, Illangelo, Jamie xx, Supa Dups, Just Blaze, Chase N. Cashe, and Doc McKinney.",
+        "artwork": ["secondAlbum.jpg"],
+        "tracklist": ["Over My Dead Body", "Shot for Me", "Headlines", "Crew Love", "Take Care", "Marvin's Room", "Buried Alive Interlude", "Under Ground Kings", "We'll Be Fine", "Make Me Proud", "Lord Knows", "Cameras/Good Ones Go Interlude", "Doing It Wrong", "The Real Her", "Look What You've Done", "HYFR", "Practice", "The Ride", "The Motto (bonus Track)", "Hate Sleeping Alone (Bonus Track)"],
+        "albumAM": "https://music.apple.com/us/album/take-care-deluxe-version/1440745498",
+        "albumSM": "https://open.spotify.com/album/6X1x82kppWZmDzlXXK3y3q"
+    },{
+        "name": "Drake",
+        "shortname": "nothing",
+        "albumname" : "Nothing Was the Same",
+        "summary": "2013 release, the third album from the Canadian actor, rapper and R&B star. 'Hold On, We're Going Home' coasts along on his hypnotic R&B crooning, bringing together an immediately unforgettable hook with silky and seductive soundscapes. Hearing both the delivery and magnetic production, it's clear that Drake's home is at the very top. The track also follows up the smash hit 'Started From The Bottom', which peaked at #6 on the Billboard Hot 100 and is now nearing double-platinum status. Cash Money Records co-founder and CEO Bryan 'Baby' Williams aka Birdman enthusiastically states, 'an artist like Drake comes along only once in a lifetime. His talent as a lyricist, performer, and creative is unparalleled.'",
+        "artwork" : ["thirdAlbum.jpg"],
+        "tracklist": ["Tuscan Leather", "Furthest Thing", "Started From the Bottom", "Wu-Tang Forever", "Own It", "Worst Behavior", "From Time", "Hold On We're Going Home", "Connect", "The Language", "305 To My City", "Too Much", "Pound Cake/Paris Morton Music 2"],
+        "albumAM": "https://music.apple.com/us/album/nothing-was-the-same/1440824484",
+        "albumSM": "https://open.spotify.com/album/1XslIirSxfAhhxRdn4Li9t"
+    },{
+        "name": "Drake",
+        "shortname": "views",
+        "albumname" : "Views",
+        "summary": "Views takes influence from West Indian and West African music. The album marks Drake's first full foray into Jamaican dancehall music, while also featuring other genres such as R&B, trap, Afrobeat, UK funky, and pop. Similar to his previous records, the album sees Drake discussing his relationship woes, experiences with betrayal, and celebrations of loyalty and friendship. The album debuted at number one on the US Billboard 200, with over one million album-equivalent units earned in its first week of release, including 852,000 copies, and achieving a then record over 245 million streams.",
+        "artwork" : ["fourthAlbum.jpg"],
+        "tracklist": ["Keep the Family Close", "9", "U With Me?", "Feel No Ways", "Hype", "Weston Road Flows", "Redemption", "With You", "Faithful", "Still Here", "Controlla", "One Dance", "Grammys", "Childs Play", "Pop Style", "Too Good", "Summer Over Interlude", "Fire & Desire", "Views", "Hotline Bling"],
+        "albumAM": "https://music.apple.com/us/album/views/1440842556",
+        "albumSM": "https://open.spotify.com/album/40GMAhriYJRO1rsY4YdrZb"
+    },{
+        "name": "Drake",
+        "shortname": "scorpion",
+        "albumname" : "Scorpion",
+        "summary": "Scorpion is the fifth studio album by Canadian rapper Drake. It was released on June 29, 2018, by Cash Money Records, Republic Records, and Young Money Entertainment. It is executively produced by Drake himself, alongside frequent collaborator 40 and manager Oliver El-Khatib. Scorpion broke Spotify's one-day global record for album streams with 132.45 million streams. It also broke Apple Music's single-day record with 170 million streams, breaking Drake's own record set with More Life. ",
+        "artwork" : ["fifthAlbum.jpg"],
+        "tracklist": ["Survival", "Nonstop", "Elevate", "Emotionless", "God's Plan", "I'm Upset", "8 Out Of 10",  "Mob Ties", "Can't Take a Joke", "Sandra's Rose", "Talk Up", "Is There More", "Peak", "Summer Games", "Jaded", "Nice For What", "Finesse", "Ratchet Happy Birthday", "That's How You Feel", "Blue Tint", "In My Feelings", "Don't Matter To Me", "After Dark", "Final Fantasy", "March 14"],
+        "albumAM": "https://music.apple.com/us/album/scorpion/1406109769",
+        "albumSM": "https://open.spotify.com/album/1ATL5GLyefJaxhQzSPVrLX"
+    }]
+}
+    

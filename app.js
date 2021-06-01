@@ -1,24 +1,35 @@
-const { response } = require ('express');
-const express = require ('express')
+const express = require('express');
+const app = express();
+const socket = require('socket.io');
 
-const app = express()
-let port = 3000
+let port = 3000;
 
-app.use(express.static('public')) // static assets, css, images, videos
-app.set('view engine', 'ejs')
+// public
+app.use(express.static('public'));
 
-app.use(required('./routes/index.js'));
-app.use(require('./routes/albums.js'))
+//views
+app.set('view engine', 'ejs');
+
+//routes
+
+app.use(require('./routes/index.js'));
+app.use(require('./routes/albums.js'));
+app.use(require('./routes/feedb'));
+app.use(require('./routes/chat'));
 
 
+let server = app.listen(port, () => {
+    console.log(`running on port ${port}`);
+})
 
+let io = socket(server);
 
+io.on('connection', (socket)=>{
 
+    console.log('client connected');
+    socket.on('postMessages', msgObj=>{
 
-
-
-
-app.listen(port, ()=>{
-    console.log(`Server is running on port ${port}`);
-
+        console.log('message received', msgObj);
+        io.emit('updateMessage', msgObj)
+    })
 })

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <%- include ('partials/structure/head.ejs') %> 
+</head>
+
+
+<body>
+    <%- include ('partials/content/nav.ejs') %> 
+
+
+
+
+    <% albums.forEach(albumObj => { %>
+       
+        
+    <div class="row d-flex flex-row select">
+        <div class="">
+            <article class=" ">
+                <div class="container" >
+
+                    <div class="row p-2 flex-wrap" >
+                     
+                        
+                <h1 class="mt-5 mb-0 p-0"><%= albumObj.albumname %> </h1>
+                        <div class="col-4 m-0 p-0 d-flex align-items-center">
+                            <a> 
+                                <img class="shadow"
+                                            src="/images/<%= albumObj.artwork %>"
+                                            alt="Photo of <%= albumObj.name %> "></a>
+                            </a>
+                        </div>
+            
+                <div class="col-6 d-flex align-items-center ">     
+                    
+                    
+                    <p>
+                    <%= albumObj.summary %>    
+                    <br>
+                    <br>
+                    <a href="<%= albumObj.albumAM %> ">
+                            <img alt="apple" src="/images/apple_music3.png">
+                         
+                    </a>
+
+                    <a href="<%= albumObj.albumSM %> ">
+                            <img alt="spotify" src="/images/spotify2.png">
+                         
+                    </a>
+
+                    </p>
+                   
+
+                    <div class="col">
+                   
+                    </div>
+                </div>
+
+            <div class="col-2 d-flex align-items-center ">   
+            
+            <ol>
+                <h3>Tracks</h3>
+             
+               
+                    <% for( let j = 0; j < albumObj.tracklist.length; j++ ) { %>
+                        <li><%= albumObj.tracklist[j] %> </li>
+                    <% } %>
+            
+            </ol>
+            </div>    
+
+                        </div>
+                    </div>
+                    </div><!-- row -->
+                </div><!-- container -->
+            </article>
+        </div><!-- primary -->
+        </div>
+<hr>
+        <% }) %>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+              integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+              crossorigin="anonymous"></script>
+    
+
+      
+        
+</body>
+</html>

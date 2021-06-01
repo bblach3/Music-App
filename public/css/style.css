@@ -1,0 +1,112 @@
+
+.bgp {
+/* The image used */
+background-image: url("../images/Drake.jpg");
+/* Full height */
+height: 100%; 
+
+/* Center and scale the image nicely */
+/* background-position: center; */
+/* background-repeat: round; */
+background-size: cover;
+}
+
+.bgp2{
+    background-image: url("https://cdn.shopify.com/s/files/1/1434/2870/products/OVO-owl-drake-neon-sign-warm-white_1024x1024.jpg?v=1596447965");
+    height: 10%;
+    width: 20%;
+}
+
+.tborder {
+    
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+.shadow {
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+.txt-accent{
+    color: silver
+    }
+
+
+.select {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    }   
+
+
+    .form-control {
+        font-weight: 100;
+        font-size: 1.7rem;
+      }
+      
+      .chat-form {
+        margin-top: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5rem;
+      }
+      
+      .jumbotron {
+        padding: 20px 0;
+        background-color: #FFEB8B;
+      }
+      
+      /**  chat-display **/
+      
+      .chat-display {
+        min-height: 150px;
+        max-height: 40vh;
+        overflow: scroll;
+        font-size: 1.2em;
+        
+      }
+      
+      .chat-display p {
+        font-size: .9em;
+        padding: 0 10px;
+       
+      }
+      
+      .feedback, .feedback-form-title {
+        font-size: 2rem;
+      }
+      
+      .feedback-form {
+        margin-top: 20px;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5rem;
+      }
+      
+      
+      .feedback-title {
+        font-size: 1.2em;
+      }
+      
+      .feedback-form-title {
+        font-size: 2em;
+      }
+      
+      .feedback-name {
+        font-size: .6em;
+        font-weight: 100;
+      }
+      
+      .feedback-message {
+        font-weight: 100;
+        font-size: .9em;
+        line-height: 120%;
+        margin-top: 5px;
+      }
+      
+      .feedback-item {
+        border-bottom: 1px solid gray;
+        padding: 8px 0;
+      }
+      
+      .feedback-item:last-of-type {
+        border-bottom: none;
+      }
+      
